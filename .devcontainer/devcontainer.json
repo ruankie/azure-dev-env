@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.224.3/containers/python-3
 {
-	"name": "Python3",
+	"name": "Azure-Python-SDK",
 	"build": { 
 		"context": "..",
 		"dockerfile": "Dockerfile",
@@ -33,7 +33,10 @@
 		"ms-python.python",
 		"ms-python.vscode-pylance",
 		"ms-toolsai.jupyter",
-		"eamodio.gitlens"
+		"eamodio.gitlens",
+		"ms-toolsai.vscode-ai-remote",
+		"ms-vscode.azure-account",
+		"ms-toolsai.vscode-ai"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
