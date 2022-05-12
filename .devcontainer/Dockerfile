@@ -12,6 +12,6 @@ RUN apt update && \
 RUN curl -sL https://aka.ms/InstallAzureCLIDeb | bash && \
     az extension add -n ml -y
 
-RUN git clone https://github.com/Azure/azureml-examples.git --depth 1
+#RUN git clone https://github.com/Azure/azureml-examples.git --depth 1
 
 EXPOSE 8080

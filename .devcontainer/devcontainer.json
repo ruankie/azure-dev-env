@@ -34,9 +34,9 @@
 		"ms-python.vscode-pylance",
 		"ms-toolsai.jupyter",
 		"eamodio.gitlens",
-		"ms-toolsai.vscode-ai-remote",
-		"ms-vscode.azure-account",
-		"ms-toolsai.vscode-ai"
+		//"ms-toolsai.vscode-ai-remote",
+		//"ms-vscode.azure-account",
+		//"ms-toolsai.vscode-ai"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
