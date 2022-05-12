@@ -9,16 +9,41 @@
 #flake8
 python-dotenv>=0.5.1
 #tensorflow==2.2.0
-jupyterlab==3.3.2
-matplotlib==3.5.1
+# jupyterlab==3.3.2
+# matplotlib==3.5.1
 #notebook
 #scikit-learn==0.24.1
-pandas==1.2.1
+# pandas==1.2.1
 #pytest==6.2.2
 #fasttest==0.9.2
-azureml-core
-azureml-automl-core
+# azureml-core
+# azureml-automl-core
+# azureml-train-automl
+# azureml-automl-runtime
+# azureml-train-automl-runtime
+# azureml-sdk
+
+# from blog
+jupyter
+# libraries required
+azureml.core
+azureml-dataset-runtime
+azureml-defaults
+azureml-mlflow
+azureml.widgets
 azureml-train-automl
-azureml-automl-runtime
-azureml-train-automl-runtime
-azureml-sdk
+azureml-pipeline-core
+azureml-responsibleai
+azureml-explain-model
+azureml-interpret
+opendp-smartnoise # (preview) smart noise project by MS and Harvard
+#azureml-contrib-fairness # (preview) fairness project by MS and Harvard
+#raiwidgets # used for azureml-contrib-fairness to plot results
+scikit-learn
+matplotlib
+pillow
+requests
+numpy
+pandas
+scikit-image
+scipy
