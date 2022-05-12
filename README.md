@@ -11,7 +11,7 @@ Containerised dev environment for Azure SDK
 }
 ```
 
-1. Run `test_nb.ipynb` to connect to your workspace.
+2. Run `test_nb.ipynb` to connect to your workspace.
 
-
+# References
 This version is based on [this blog post](https://blog.devgenius.io/work-locally-with-azure-machine-learning-from-docker-image-2c2e6884a3e8)
